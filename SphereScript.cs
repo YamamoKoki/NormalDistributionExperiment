@@ -8,7 +8,7 @@ public class SphereScript : MonoBehaviour
     public Transform spawnPoint1;   // 生成する位置1を指定
     public Transform spawnPoint2;   // 生成する位置2を指定
     public float spawnInterval = 2f; // 生成間隔（秒）
-    public int maxprefab = 30;
+    public int maxprefab;
     public int prefabcount = 0;
 
     private bool isSpawningAtPoint1 = true; // 現在の生成位置フラグ
